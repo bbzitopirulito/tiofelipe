@@ -1,0 +1,59 @@
+body {
+    background-color:#f5f5f5;
+}
+
+#form {
+    position: relative;
+    height: 600px;
+    width: 400px;
+    /*margin: top, right, bottom and left*/
+    margin: 2% 0 0 -10%;
+    top: 50%;
+    left: 50%;
+    border-radius: 2px;
+    border: 0.5px solid #e8e8e8;
+    background-color: white;
+}
+#login {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 5%;
+    left: 25%;
+    font-family: 'Roboto', sans-serif;
+}
+#log {
+    text-align: center;
+}
+input {    
+    border-radius: 2px;
+    border: 0.5px solid #e8e8e8;
+    background-color:#f5f5f5; 
+    padding: 10px;
+    padding-right: 10%;
+    height: 15px;
+}
+button {
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    width: 205px;
+    height: 37px;
+    text-align: center;
+    background-color: #069BFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+}
+
+p {        
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #069BFC;
+    font-size: 90%;
+}
+
+
