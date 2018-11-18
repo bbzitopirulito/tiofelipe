@@ -7,7 +7,7 @@ body {
     height: 600px;
     width: 400px;
     /*margin: top, right, bottom and left*/
-    margin: 2% 0 0 -10%;
+    margin: 2% 0 0 -10%;    
     top: 50%;
     left: 50%;
     border-radius: 2px;
@@ -54,6 +54,19 @@ a {
     text-decoration: none;
     color: #069BFC;
     font-size: 90%;
+}
+
+@media (max-width:1000px) {
+    #form {
+        margin-left: -200px;
+        
+    }
+} 
+
+@media (min-width:1000px) and (max-width:1500px) {
+    #form {
+        margin-left: -190px;
+    }    
 }
 
 
